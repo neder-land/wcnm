@@ -80,8 +80,9 @@
 {
     "action": "center.user_action",
     "content": {
-        "intend_to": "leave", // 用户希望执行的操作，为 [leave,ready,unready] 三者中任意一个，分布代表离开房间，准备与取消准备
-    }
+        "intend_to": "leave", // 用户希望执行的操作，为 [leave,ready,unready] 三者中任意一个，分别代表离开房间，准备与取消准备
+    },
+    "time": 0
 }
 ```
 
