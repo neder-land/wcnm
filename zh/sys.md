@@ -26,7 +26,7 @@
 ```json
 {
     "action": "sys.login",
-    "data": {
+    "content": {
         "username": "female_robot" // 用户名称
     },
     "time": 0
@@ -38,7 +38,7 @@
 ```json
 {
     "action": "sys.logout",
-    "data": {},
+    "content": {},
     "time": 0
 }
 ```
@@ -48,7 +48,7 @@
 ```json
 {
     "action": "sys.disconnect",
-    "data": {},
+    "content": {},
     "time": 0
 }
 ```
@@ -58,7 +58,7 @@
 ```json
 {
     "action": "sys.login.accept",
-    "data": {},
+    "content": {},
     "time": 0
 }
 ```
@@ -68,7 +68,7 @@
 ```json
 {
     "action": "sys.login.cancel",
-    "data": {
+    "content": {
         "reason": "Username occupied." // 拒绝登陆的理由
     },
     "time": 0
@@ -80,7 +80,7 @@
 ```json
 {
     "action": "sys.logout.accept",
-    "data": {},
+    "content": {},
     "time": 0
 }
 ```
