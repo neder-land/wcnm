@@ -14,16 +14,13 @@
 
 动作名 | 用途
 :- | :-
-[```sys.login.accept```](#sysloginaccept) | 批准某个客户端发送的登录请求
 [```sys.login.cancel```](#syslogincancel) | 取消某个客户端发送的登录请求，即登录失败；目前登录失败唯一的可能是有人使用了已在线账户的昵称尝试登录
-[```sys.logout.accept```](#syslogoutaccept) | 批准某个客户端的登出请求
-[```sys.disconnect```](#sysdisconnect) | 服务端主动发起断开连接请求；目前仅会在重启服务器时这么做
 
 ## 2. Content 规范
 
 ### ```sys.login```
 
-```json
+```json5
 {
     "action": "sys.login",
     "content": {
@@ -35,7 +32,7 @@
 
 ### ```sys.logout```
 
-```json
+```json5
 {
     "action": "sys.logout",
     "content": {},
@@ -45,7 +42,7 @@
 
 ### ```sys.disconnect```
 
-```json
+```json5
 {
     "action": "sys.disconnect",
     "content": {},
@@ -53,34 +50,14 @@
 }
 ```
 
-### ```sys.login.accept```
-
-```json
-{
-    "action": "sys.login.accept",
-    "content": {},
-    "time": 0
-}
-```
-
 ### ```sys.login.cancel```
 
-```json
+```json5
 {
     "action": "sys.login.cancel",
     "content": {
         "reason": "Username occupied." // 拒绝登陆的理由
     },
-    "time": 0
-}
-```
-
-### ```sys.logout.accept```
-
-```json
-{
-    "action": "sys.logout.accept",
-    "content": {},
     "time": 0
 }
 ```
