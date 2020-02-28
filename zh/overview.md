@@ -1,6 +1,6 @@
 # WCNM 协议标准
 
-> Version 0.1.0
+> Version 1
 > Created at 2.27.2020
 > Author langyo(langyo.china@gmail.com)
 > switefaster(switefaster@gmail.com)
@@ -52,7 +52,7 @@ WCNM 的将数据包分为以下 3 类以及一个**结构**，本文将稍后�
 
 ```json5
 {
-    "version": Number      // 协议版本；本次协议的版本为 0.1.0
+    "version": Number      // 协议版本；本次协议的版本为 1
 }
 ```
 
