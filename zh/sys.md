@@ -25,8 +25,7 @@
     "action": "sys.login",
     "content": {
         "username": "female_robot" // 用户名称
-    },
-    "time": 0
+    }
 }
 ```
 
@@ -35,8 +34,7 @@
 ```json5
 {
     "action": "sys.logout",
-    "content": {},
-    "time": 0
+    "content": {}
 }
 ```
 
@@ -45,8 +43,7 @@
 ```json5
 {
     "action": "sys.disconnect",
-    "content": {},
-    "time": 0
+    "content": {}
 }
 ```
 
@@ -57,7 +54,6 @@
     "action": "sys.login.cancel",
     "content": {
         "reason": "Username occupied." // 拒绝登陆的理由
-    },
-    "time": 0
+    }
 }
 ```

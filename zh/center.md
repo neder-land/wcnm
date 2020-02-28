@@ -36,8 +36,7 @@
 ```json5
 {
     "action": "center.list.types",
-    "content": {},
-    "time": 0
+    "content": {}
 }
 ```
 
@@ -48,8 +47,7 @@
     "action": "center.list.rooms",
     "content": {
         "game": "" // 请求的游戏类型，空字符串以获得全部房间
-    },
-    "time": 0
+    }
 }
 ```
 
@@ -61,8 +59,7 @@
     "content": {
         "room_name": "hell_s_fire", // 要创建的房间的名称
         "game": "nswc" // 要创建的游戏类型
-    },
-    "time": 0
+    }
 }
 ```
 
@@ -73,8 +70,7 @@
     "action": "center.join",
     "content": {
         "room_name": "TrashCan" // 要加入的游戏房间名
-    },
-    "time": 0
+    }
 }
 ```
 
@@ -85,8 +81,7 @@
     "action": "center.user_action",
     "content": {
         "intend_to": "leave", // 用户希望执行的操作，为 [leave,ready,unready] 三者中任意一个，分布代表离开房间，准备与取消准备
-    },
-    "time": 0
+    }
 }
 ```
 
@@ -97,8 +92,7 @@
     "action": "center.room.room_operation",
     "content": {
         "intend_to": "start", // 要对房间进行的操作，为 [start, break] 二者其一，分别代表开始游戏与解散房间
-    },
-    "time": 0
+    }
 }
 ```
 
@@ -110,8 +104,7 @@
     "content": {
         "intend_to": "kick", // 要对用户进行的操作，为 [kick,mute,set_master] 三者其一，分布表示踢出，禁言与转让房主
         "target": "switefaster"
-    },
-    "time": 0
+    }
 }
 ```
 
@@ -126,8 +119,7 @@
             "ngword",
             "zftql"
         ]
-    },
-    "time": 0
+    }
 }
 ```
 
@@ -146,8 +138,7 @@
                 "game": "nswc"
             }
         ]
-    },
-    "time": 0
+    }
 }
 ```
 
@@ -159,8 +150,7 @@
     "content": {
         "room": "hell_s_fire", // 创建成功的游戏房间名称，主要是为了方便客户端处理
         "game": "nswc" // 创建成功的游戏类型
-    },
-    "time": 0
+    }
 }
 ```
 
@@ -171,8 +161,7 @@
     "action": "center.create.fail",
     "content": {
         "reason": "Name occupied" // 创建失败的理由
-    },
-    "time": 0
+    }
 }
 ```
 
@@ -195,8 +184,7 @@
             "in_game": false, // 房间是否在游戏中
             "game": "nswc"
         }
-    },
-    "time": 0
+    }
 }
 ```
 
@@ -207,8 +195,7 @@
     "action": "center.join.fail",
     "content": {
         "reason": "You are too strong to join this room." // 加入失败的原因
-    },
-    "time": 0
+    }
 }
 ```
 
@@ -219,8 +206,7 @@
     "action": "center.leave.fail",
     "content": {
         "reason": "You are not in a room." // 离开失败的理由
-    },
-    "time": 0
+    }
 }
 ```
 
@@ -231,8 +217,7 @@
     "action": "center.break.fail",
     "content": {
         "reason": "Permission denied!" // 解散失败的理由
-    },
-    "time": 0
+    }
 }
 ```
 
@@ -243,8 +228,7 @@
     "action": "center.room.status_change",
     "content": {
         "event": "start", // 状态变化的具体内容，为 [start,break] 二者其一，分别表示开始于解散
-    },
-    "time": 0
+    }
 }
 ```
 
@@ -256,7 +240,6 @@
     "content": {
         "what": "ready", // 用户状态改变的具体内容，为 [ready,unready,kick,mute,set_master,join,leave] 七者其一，分布表示准备/取消准备/踢出/禁言/转让房主/加入/离开
         "who": "Yaossg" // 状态改变的用户
-    },
-    "time": 0
+    }
 }
 ```
