@@ -2,8 +2,9 @@
 
 > Version 1
 > Created at 2.27.2020
-> Author langyo(langyo.china@gmail.com)
-> switefaster(switefaster@gmail.com)
+> Author
+>   langyo(langyo.china@gmail.com)
+>   switefaster(switefaster@gmail.com)
 >
 > Credits to all nederland members
 
