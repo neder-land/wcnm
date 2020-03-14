@@ -13,6 +13,5 @@
   * [overview.md](zh/overview.md) - 协议总览
   * [center.md](zh/center.md) - 控制协议正文
   * [game.md](zh/game.md) - 游戏协议正文
-  * [msg.md](zh/msg.md) - 消息结构正文
   * [sys.md](zh/sys.md) - 系统协议正文
 * [README_zh.md](README_zh.md) - 中文 README
