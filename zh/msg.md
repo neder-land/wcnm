@@ -22,7 +22,7 @@
 {
     "action": "xxx.msg.send",
     "content": {
-        "scope": "<string>", // 消息的作用域，由不同的实例自行规定,
+        "scope": "<string>", // 消息的作用域，由不同的实例自行规定
         "sender": "switefaster", // 消息的发出者
         "message": {} // 消息的正文，我们对此类型不做任何规定，可以是字符串，亦可以是游戏需要的特殊对象
     }
